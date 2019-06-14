@@ -2,7 +2,7 @@ const Book = require("./../../models/book");
 const Author = require("./../../models/author");
 
 module.exports = {
-  Books: () => {
+  books: () => {
     return Book.find({})
       .populate("author")
       .then(data => {
@@ -24,7 +24,7 @@ module.exports = {
         throw err;
       });
   },
-  Authors: () => {
+  authors: () => {
     return Author.find({})
       .then(data => {
         return data.map(e => {

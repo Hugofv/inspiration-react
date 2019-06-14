@@ -38,8 +38,8 @@ module.exports = buildSchema(`
   }
 
   type RootQuery {
-    Books: [Book!]!
-    Authors: [Author!]!
+    books: [Book!]!
+    authors: [Author!]!
   }
 
   type RootMutation {

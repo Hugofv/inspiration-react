@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-todo {
+  width: 40%;
+  padding: 1em;
+  -webkit-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+}
